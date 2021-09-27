@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
+using TelegramCurreent.Abstractions;
 
 namespace TelegramCurreent.Controllers
 {
@@ -12,15 +13,28 @@ namespace TelegramCurreent.Controllers
     [Route("api/bot")]
     public class BotController : ControllerBase
     {
+        private readonly ITelegramBotClient _telegramBotClient;
+        private readonly ICommandService _commandService;
+        public BotController(ICommandService commandService, ITelegramBotClient telegramBotClient)
+        {
+            _commandService = commandService;
+            _telegramBotClient = telegramBotClient;
+        }
+
         public async Task<IActionResult> Post([FromBody] Update update)
         {
-            TelegramBotClient client = new TelegramBotClient("2003705144:AAFIB8or5Pl7yQa_R0yy3s5t3ntWGULnisA");
+            if (update == null) return Ok();
 
-            if (update.Type == Telegram.Bot.Types.Enums.UpdateType.Message)
+            var message = update.Message;
+
+            foreach (var command in _commandService.Get())
             {
-                await client.SendTextMessageAsync(update.Message.From.Id, "answer");
+                if (command.Contains(message))
+                {
+                    await command.Execute(message, _telegramBotClient);
+                    break;
+                }
             }
-
 
             return Ok();
         }

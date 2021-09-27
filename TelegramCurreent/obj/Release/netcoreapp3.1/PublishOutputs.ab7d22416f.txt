@@ -1,0 +1,12 @@
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\TelegramCurreent.exe
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\TelegramCurreent.dll
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\TelegramCurreent.deps.json
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\TelegramCurreent.runtimeconfig.json
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\TelegramCurreent.pdb
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.Bson.dll
+C:\TelegramBot\TelegramBotForCollegeASP.NET\TelegramCurreent\obj\Release\netcoreapp3.1\PubTmp\Out\Telegram.Bot.dll

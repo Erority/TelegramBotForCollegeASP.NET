@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "https://telegrambotforisp20210925141548.azurewebsites.net", 
+      "applicationUrl": "https://telegrambotforisp20210925141548.azurewebsites.net",
       "sslPort": 44382
     }
   },
