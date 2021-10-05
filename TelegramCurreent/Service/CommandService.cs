@@ -16,7 +16,9 @@ namespace TelegramCurreent.Service
             _commands = new List<TelegramCommand>
             {
                 new StartCommand(),
-                new TimetableCommand()
+                new TimetableCommand(),
+                new FullTimeTableCommand(),
+                new HelpCommand()
             };
         }
 

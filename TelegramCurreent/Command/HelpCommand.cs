@@ -9,9 +9,9 @@ using TelegramCurreent.Abstractions;
 
 namespace TelegramCurreent.Command
 {
-    public class StartCommand : TelegramCommand
+    public class HelpCommand : TelegramCommand
     {
-        public override string Name => @"/start";
+        public override string Name => @"/help";
 
         public override bool Contains(Message message)
         {
@@ -21,16 +21,16 @@ namespace TelegramCurreent.Command
             return message.Text.Contains(Name);
         }
 
+
         public override async Task Execute(Message message, ITelegramBotClient telegramBotClient)
         {
             var chatId = message.Chat.Id;
 
             await telegramBotClient.SendTextMessageAsync(
                 chatId: chatId,
-                text: "Привет ! Я телеграм бот разработанныый Денисом." +
-                " Ты можешь узнать расписание пар на сегодня, либо на всю неделю",
+                text: "Ты можешь посмотреть репозиторий проекта, а также узнать пары не сегодня, либо на неделю",
                 parseMode: ParseMode.Html,
-                replyMarkup: KeyBoard.GetButtons());
+                replyMarkup: KeyBoard.GetInlineKeyboard());
         }
     }
 }

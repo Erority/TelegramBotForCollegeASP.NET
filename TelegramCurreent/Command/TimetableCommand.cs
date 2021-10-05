@@ -11,7 +11,7 @@ namespace TelegramCurreent.Command
 {
     public class TimetableCommand : TelegramCommand
     {
-        public override string Name => "Узнать сегодняшнее расписание";
+        public override string Name => "\U0001F4DAУзнать сегодняшние пары";
 
         public override bool Contains(Message message)
         {
@@ -31,14 +31,64 @@ namespace TelegramCurreent.Command
                     await telegramBotClient.SendTextMessageAsync(
                         chatId: chatId,
                         text: "1.МДК 04.02\n2.Базы данных\n3.БЖ\n4.Програмные модули",
-                        parseMode: ParseMode.Html);
+                        parseMode: ParseMode.Html,
+                        replyMarkup: KeyBoard.GetButtons());
                     break;
 
                 case DayOfWeek.Tuesday:
                     await telegramBotClient.SendTextMessageAsync(
                         chatId: chatId,
-                        text: "1.МДК 04.02\n2.Базы данных\n4.Програмные модули",
-                        parseMode: ParseMode.Html);
+                        text: "1.МДК 04.02\n2.Базы данных\n3.Програмные модули",
+                        parseMode: ParseMode.Html,
+                        replyMarkup: KeyBoard.GetButtons());
+                    break;
+
+                case DayOfWeek.Wednesday:
+                    await telegramBotClient.SendTextMessageAsync(
+                        chatId: chatId,
+                        text: "2.Моб.приложения\n3.МДК 04.02\n4.Ин.яз",
+                        parseMode: ParseMode.Html,
+                        replyMarkup: KeyBoard.GetButtons());
+                    break;
+
+                case DayOfWeek.Thursday:
+                    await telegramBotClient.SendTextMessageAsync(
+                        chatId: chatId,
+                        text: "1.Философия\n2.Базы данных\n3.БЖ\n4.Физ.культура",
+                        parseMode: ParseMode.Html,
+                        replyMarkup: KeyBoard.GetButtons());
+                    break;
+
+                case DayOfWeek.Friday:
+                    await telegramBotClient.SendTextMessageAsync(
+                        chatId: chatId,
+                        text: "1.Нет пары\n2.Базы данных\n3.Моб.приложения\n4.Философия",
+                        parseMode: ParseMode.Html,
+                        replyMarkup: KeyBoard.GetButtons());
+                    break;
+
+                case DayOfWeek.Saturday:
+                    await telegramBotClient.SendTextMessageAsync(
+                        chatId: chatId,
+                        text: "Ты что больной ? Иди спать",
+                        parseMode: ParseMode.Html,
+                        replyMarkup: KeyBoard.GetButtons());
+                    break;
+                    await telegramBotClient.SendStickerAsync(
+                        chatId: chatId,
+                        sticker: "https://tlgrm.ru/_/stickers/cbe/e09/cbee092b-2911-4290-b015-f8eb4f6c7ec4/192/24.webp"
+                        replyMarkup: KeyBoard.GetButtons());
+
+                case DayOfWeek.Sunday:
+                    await telegramBotClient.SendTextMessageAsync(
+                        chatId: chatId,
+                        text: "1.Нет пары\n2.Базы данных\n3.Моб.приложения\n4.Философия",
+                        parseMode: ParseMode.Html,
+                        replyMarkup: KeyBoard.GetButtons());
+                    await telegramBotClient.SendStickerAsync(
+                        chatId: chatId,
+                        sticker: "https://tlgrm.ru/_/stickers/cbe/e09/cbee092b-2911-4290-b015-f8eb4f6c7ec4/192/24.webp"
+                        replyMarkup: KeyBoard.GetButtons());
                     break;
             }
         }

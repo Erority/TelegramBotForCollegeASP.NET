@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TelegramBot\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj": {}
+    "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj": {}
   },
   "projects": {
-    "C:\\TelegramBot\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj": {
+    "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TelegramBot\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
+        "projectUniqueName": "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
         "projectName": "TelegramCurreent",
-        "projectPath": "C:\\TelegramBot\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
+        "projectPath": "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
         "packagesPath": "C:\\Users\\progr\\.nuget\\packages\\",
-        "outputPath": "C:\\TelegramBot\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\obj\\",
+        "outputPath": "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\progr\\AppData\\Roaming\\NuGet\\NuGet.Config",

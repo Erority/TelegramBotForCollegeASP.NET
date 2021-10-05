@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YbLUjCAtif/qSwKjykv+iWtdW8Fic24jLZ+2PZYdTNi6lTn9oIparqKcpz/CsV8Rg1rcudvXISeTWTl+w/spuQ==",
+  "dgSpecHash": "aZleiivcWny096uPAKEKPSXWlO98K8vIgIEmRkOBUB5tOtzM+Ipkd1xrjTpupwTrhF4KCeG59omKCw1PCh8MgQ==",
   "success": true,
-  "projectFilePath": "C:\\TelegramBot\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
+  "projectFilePath": "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\progr\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.19\\microsoft.aspnetcore.jsonpatch.3.1.19.nupkg.sha512",
     "C:\\Users\\progr\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.19\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.19.nupkg.sha512",
