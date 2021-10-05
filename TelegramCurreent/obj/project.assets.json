@@ -4894,20 +4894,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\progr\\.nuget\\packages\\": {}
+    "C:\\Users\\HazelTanget\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
+      "projectUniqueName": "C:\\ActualProject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
       "projectName": "TelegramCurreent",
-      "projectPath": "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
-      "packagesPath": "C:\\Users\\progr\\.nuget\\packages\\",
-      "outputPath": "C:\\MuCurrentPorject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\obj\\",
+      "projectPath": "C:\\ActualProject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\TelegramCurreent.csproj",
+      "packagesPath": "C:\\Users\\HazelTanget\\.nuget\\packages\\",
+      "outputPath": "C:\\ActualProject\\TelegramBotForCollegeASP.NET\\TelegramCurreent\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\progr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HazelTanget\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -4951,12 +4959,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.18, 3.1.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4965,7 +4967,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
